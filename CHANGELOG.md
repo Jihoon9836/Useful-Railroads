@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.19.4-1.5.4.58] - 2024-07-07
+### Changed
+ - Fix crash with latest uteamcore versions
+
 ## [1.19.4-1.5.4.51] - 2023-03-23
 ### Changed
  - Update to uteamcore changes
