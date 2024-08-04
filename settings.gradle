@@ -4,6 +4,9 @@ pluginManagement {
 			url = "https://repo.u-team.info"
 		}
 		maven {
+			url = "https://maven.neoforged.net/releases"
+		}
+		maven {
 			url = "https://maven.minecraftforge.net"
 		}
 		maven {
@@ -18,6 +21,8 @@ pluginManagement {
 	plugins {
 		id "org.gradle.toolchains.foojay-resolver-convention" version "0.8.0"
 		
+		id "net.neoforged.gradle.userdev" version "7.0.+"
+		
 		id "net.minecraftforge.gradle" version "6.0.+"
 		id "org.parchmentmc.librarian.forgegradle" version "1.+"
 		id "org.spongepowered.mixin" version "0.7.+"
@@ -26,7 +31,7 @@ pluginManagement {
 		
 		id "info.u_team.gradle_files" version "4.0.1"
 		
-		id "me.modmuss50.mod-publish-plugin" version "0.6.2"
+		id "me.modmuss50.mod-publish-plugin" version "0.6.3"
 	}
 }
 
@@ -35,4 +40,4 @@ plugins {
 	id "info.u_team.gradle_files"
 }
 
-gradlefiles.setupProject("Useful-Railroads")
+gradlefiles.setupProject("Useful-Railroads", "common", "neoforge", "forge")
