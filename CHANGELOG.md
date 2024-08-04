@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.20.1-1.5.6.59] - 2024-08-04
+### Changed
+ - Updated uteamcore version
+ - Updated buildscript and release on modrinth
+
 ## [1.20.1-1.5.6.56] - 2023-09-29
 ### Changed
  - Updated forge version
