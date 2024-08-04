@@ -68,7 +68,7 @@ minecraft {
 			args "--all"
 			args "--output", file("src/generated/resources")
 			args "--validate"
-			args "--existing", "--existing", file("src/main/resources")
+			args "--existing", file("src/main/resources")
 			
 			property "coremod.uteamcore.dataprovider-set-indent", "coremod.uteamcore.dataprovider-set-indent.value"
 			property "coremod.uteamcore.dataprovider-set-indent.value", "true"
