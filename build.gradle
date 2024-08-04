@@ -1,4 +1,5 @@
 plugins {
+	id "fabric-loom" apply false
 	id "info.u_team.gradle_files"
 }
 
