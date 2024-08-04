@@ -31,6 +31,6 @@ license="Apache-2.0 License"
 	[[dependencies.usefulrailroads]]
 	    modId="uteamcore"
 	    mandatory=true
-	    versionRange="[5.2.0.270,)"
+	    versionRange="[5.1.4.312,)"
 	    ordering="NONE"
 	    side="BOTH"
